@@ -1,0 +1,308 @@
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "<think>\n嗯",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "，",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "用户",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "只",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "输入",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "了",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "“",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "vd",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "”",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "两个",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "字母",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "，",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "这",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "看起来",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "像",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "是一个",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "缩写",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "或者",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "拼",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "写",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "错误",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}
+
+data: {
+    "event": "message",
+    "conversation_id": "21044bf8-16ab-4215-b914-a51182d54213",
+    "message_id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "created_at": 1777822631,
+    "task_id": "e4d90b83-9953-4f82-8c63-628e2c19db44",
+    "id": "742e44d9-3d8b-4cc4-99ec-502e1bb9d5a4",
+    "answer": "。",
+    "from_variable_selector": [
+        "llm",
+        "text"
+    ]
+}

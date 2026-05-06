@@ -2,9 +2,11 @@
   <div class="chat-header">
     <div class="header-content">
       <div class="logo">
-        <div class="logo-icon">豆</div>
+        <div class="logo-icon">
+          <img src="@/assets/images/headsome.jpg" alt="" srcset="">
+        </div>
       </div>
-      <h1>{{ currentConversation?.title || '豆包' }}</h1>
+      <h1>{{ currentConversation?.title || 'deepfuck' }}</h1>
       <div class="header-actions">
         <button class="action-btn" @click="toggleTheme">
           <svg v-if="theme === 'light'" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -303,6 +305,12 @@ onUnmounted(() => {
   justify-content: center;
   font-size: 18px;
   font-weight: bold;
+}
+
+.logo-icon > img{
+  width: 36px;
+  height: 36px;
+  border-radius: 15%;
 }
 
 .action-btn {

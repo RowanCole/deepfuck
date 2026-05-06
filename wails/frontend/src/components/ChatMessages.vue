@@ -2,7 +2,7 @@
   <div class="chat-messages" ref="messagesContainer">
     <div class="welcome-message">
       <div class="welcome-content">
-        <h2>你好！我是豆包</h2>
+        <h2>你好！我是deepfuck</h2>
         <p>有什么可以帮助你的吗？</p>
       </div>
     </div>
@@ -12,7 +12,9 @@
       :class="['message', message.role === 'user' ? 'user-message' : 'ai-message']"
     >
       <div class="message-avatar">
-        <div v-if="message.role === 'ai'" class="avatar ai-avatar">豆</div>
+        <div v-if="message.role === 'ai'" class="avatar ai-avatar">
+          <img src="@/assets/images/headsome.jpg" alt="">
+        </div>
         <div v-else class="avatar user-avatar">你</div>
       </div>
       <div class="message-content">{{ message.content }}</div>
@@ -152,8 +154,12 @@ defineExpose({
   color: white;
 }
 
-.ai-avatar {
+
+.ai-avatar > img {
+  width: 36px;
+  height: 36px;
   background-color: #ff6b6b;
+  border-radius: 50%;
 }
 
 .user-avatar {

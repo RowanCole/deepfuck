@@ -1,53 +1,30 @@
 import { ref } from 'vue'
 import { sendMessage as sendMessageApi, getConversationMessages } from '../api/conversation'
+import { chatMessages } from '../api/sendMessage'
 
 export function useChat() {
   const messages = ref([
     {
       id: 1,
       role: 'ai',
-      content: '你好！我是豆包AI，有什么可以帮助你的吗？'
+      content: '你好！我是deepfuck AI，有什么可以帮助你的吗？'
     }
   ])
   const isTyping = ref(false)
   const currentConversationId = ref('1') // 默认会话ID
 
-  const sendMessage = async (content, conversationId = currentConversationId.value) => {
-    if (!content.trim()) return
+  const addMessage = (content,role,conversationId = currentConversationId.value) =>{
+        if (!content.trim() && role == 'user') return
 
-    // 添加用户消息
-    const userMessage = {
-      id: Date.now(),
-      role: 'user',
-      content: content.trim()
-    }
-    messages.value.push(userMessage)
-
-    // 模拟AI回复
-    isTyping.value = true
-    try {
-      const response = await sendMessageApi(conversationId, content.trim())
-      if (response.success) {
-        const aiMessage = {
-          id: response.data.id,
-          role: response.data.role,
-          content: response.data.content
+        const message = {
+          id: Date.now(),
+          role,
+          content: content.trim()
         }
-        messages.value.push(aiMessage)
-      }
-    } catch (error) {
-      console.error('发送消息失败:', error)
-      // 失败时添加默认回复
-      const aiMessage = {
-        id: Date.now() + 1,
-        role: 'ai',
-        content: '抱歉，发送消息失败，请稍后重试。'
-      }
-      messages.value.push(aiMessage)
-    } finally {
-      isTyping.value = false
-    }
+        messages.value.push(message)
+        return message
   }
+
 
   const loadConversationMessages = async (conversationId) => {
     currentConversationId.value = conversationId
@@ -63,7 +40,7 @@ export function useChat() {
         {
           id: 1,
           role: 'ai',
-          content: '你好！我是豆包AI，有什么可以帮助你的吗？'
+          content: '你好！我是deepfuck AI，有什么可以帮助你的吗？'
         }
       ]
     }
@@ -72,7 +49,7 @@ export function useChat() {
   return {
     messages,
     isTyping,
-    sendMessage,
+    addMessage,
     loadConversationMessages,
     currentConversationId
   }
